@@ -58,14 +58,14 @@ function addQues(subj,quest){
     subject.value='';
 }
 function getFromLocalStorage(){
-    const ref = localStorage.getItem('tasks');
+    const ref = localStorage.getItem('disapptasks');
     if(ref){
         quesArr=JSON.parse(ref);
         renderList(quesArr);
     }
 }
 function addToLocalStorage(quesArr){
-    localStorage.setItem('tasks',JSON.stringify(quesArr));
+    localStorage.setItem('disapptasks',JSON.stringify(quesArr));
     renderList(quesArr);
 }
 
@@ -155,7 +155,7 @@ function showQues(litem){
             com:rescomment,
         };
         resarr.push(data);
-        localStorage.setItem('tasks',JSON.stringify(quesArr));
+        localStorage.setItem('disapptasks',JSON.stringify(quesArr));
         name.value='';
         comment.value='';
         const li=document.createElement('li');
@@ -173,7 +173,7 @@ function showQues(litem){
         quesArr=quesArr.filter(function(ques){
             return ques.id!=activeQues;
         });
-        localStorage.setItem('tasks',JSON.stringify(quesArr));
+        localStorage.setItem('disapptasks',JSON.stringify(quesArr));
         showNewQuestion();
     });
 }
