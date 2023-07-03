@@ -1,0 +1,152 @@
+html,body{
+    margin: 0%;
+    height: 100vh;
+  }
+  div#outer{
+    margin-left:1%;
+    background-color: lightblue;
+    height:7%;
+    position: relative;
+  }
+  div#top{
+    margin-left:2%;
+    font-size:2em;
+    position: relative;
+    top:15%;
+  }
+  div#c1 {
+    margin-left: 2%;
+    height: 100vh;
+    background-color: #E8E8E8;
+    border-style:solid;
+    border-width:0px 1px 1px 0px;
+    border-color:lightgrey;
+  }
+  div#inner{
+    height:10%;
+    background-color:white;
+    position: relative;
+    border-style:solid;
+    border-width:0px 0px 1px 0px;
+    border-color:lightgrey;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+  }
+  button#newques{
+    position: absolute;
+    vertical-align: middle;
+    top: 15%;
+    left: 5%;
+    right:65%;
+    height: 70%;
+    background-color: #0169D9;
+    color: white;
+    border-radius:5px ;
+    font-size: large;
+  }
+  input#searchques{
+    position: absolute;
+    float:right;
+    right: 20%;
+    left:45%;
+    height: 60%;
+    font-size: large;
+    border-color: lightgrey;
+    top: 15%;
+  }
+  .item{
+    margin-left: -6%;
+    list-style-type: none;
+    border-style:solid;
+    border-width:0px 0px 1px 0px;
+    border-color:lightgrey;
+
+  }
+  .itemsub{
+    margin-left: 3%;
+    word-wrap: break-word;
+  }
+  .itemque{
+    margin-top: -2%;
+    margin-left: 3%;
+    word-wrap: break-word;
+  }
+  .item:hover{
+    cursor: pointer;
+  }
+
+  div.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  h1{
+    margin-left:8%;
+    margin-top: 8%;
+  }
+  p#c22{
+    margin-left: 8%;
+    margin-top: -2%;
+  }
+  input#sub,input#ressub{
+    margin-left: 8%;
+    margin-top: 3%;
+    height: 5%;
+    width: 40%;
+  }
+  textarea#ques,textarea#rescom{
+    margin-left: 8%;
+    margin-top: 3%;
+    height: 15%;
+    width: 80%;
+  }
+  input#ressub,textarea#rescom{
+    margin-left: 4%;
+  }
+  button#submit,button#resol,button#submitres{
+    float:right;
+    margin-right: 11%;
+    margin-top: 2%;
+    background-color: #0169D9;
+    color: white;
+    border-radius:5px ;
+    font-size: large;
+  }
+  h3#question{
+    margin-left: 4%;
+    margin-bottom: -2%;
+    margin-top: 8%;
+  }
+  .quesdiv{
+    margin-left: 4%;
+    margin-right: 10%;
+    background-color: #E8E8E8;
+  }
+  h3#resp{
+    margin-left: 4%;
+    margin-bottom: -2%;
+    margin-top: 8%;
+  }
+  h3#addresp{
+    margin-left: 4%;
+    margin-bottom: -2%;
+  }
+  ul#reslist {
+    margin-left: 4%;
+    margin-right: 10%;
+    background-color: #E8E8E8;
+    border-style:solid;
+    border-width:0px 1px 1px 0px;
+    border-color:lightgrey;
+  }
+  .ressub{
+    margin-left: 3%;
+    word-wrap: break-word;
+  }
+  .resque{
+    margin-top: -2%;
+    margin-left: 3%;
+    word-wrap: break-word;
+  }
